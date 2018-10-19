@@ -20,8 +20,7 @@
     "no-switch-case-fall-through": true,
     "no-trailing-whitespace": true,
     "no-unused-expression": true,
-    "no-unused-variable": false,
-    
+    "no-unused-variable": false,    
     "no-var-requires": false,
     "one-line": [
       true,

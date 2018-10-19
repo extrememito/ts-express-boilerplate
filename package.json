@@ -4,6 +4,8 @@
   "description": "Web Services for App-Masons website",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon",
+    "build": "tsc",
     "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +22,9 @@
   "devDependencies": {
     "@types/express": "^4.16.0",
     "@types/node": "^10.12.0",
+    "nodemon": "^1.18.4",
     "prettier": "^1.14.3",
+    "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "typescript": "^3.1.3"
   },
