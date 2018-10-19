@@ -1,0 +1,26 @@
+{
+  "name": "app-masons-web-services",
+  "version": "1.0.0",
+  "description": "Web Services for App-Masons website",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/app-masons/app-masons-web-services.git"
+  },
+  "author": "Miroslav Gajdos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/app-masons/app-masons-web-services/issues"
+  },
+  "homepage": "https://gitlab.com/app-masons/app-masons-web-services#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.0",
+    "prettier": "^1.14.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
+  }
+}
