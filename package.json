@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon",
-    "build": "tsc",
+    "build": "tsc -p tsconfig.prod.json",
     "tsc": "tsc",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
