@@ -1,7 +1,7 @@
 {
-  "name": "app-masons-web-services",
+  "name": "ta-express-boilerplate",
   "version": "1.0.0",
-  "description": "Web Services for App-Masons website",
+  "description": "Typescript express boilerplate",
   "main": "index.js",
   "scripts": {
     "start": "nodemon",
@@ -12,14 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/app-masons/app-masons-web-services.git"
+    "url": "git+ssh://git@github.com/extrememito/ts-express-boilerplate"
   },
   "author": "Miroslav Gajdos",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/app-masons/app-masons-web-services/issues"
-  },
-  "homepage": "https://gitlab.com/app-masons/app-masons-web-services#readme",
   "jest": {
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
